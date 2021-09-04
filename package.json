@@ -2,7 +2,7 @@
   "name": "task-2-spacex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/PRACHIP09/lp-task2.git",
+  "homepage": "https://prachip09.github.io/LearningPeriod-Task2-SpaceX",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@syncfusion/ej2-react-calendars": "^19.2.55",
