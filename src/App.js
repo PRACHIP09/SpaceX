@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Launches from './components/Launches';
+import { BrowserRouter as Router,Route } from 'react-router-dom';
+import {Container} from 'react-bootstrap';
+import Flightpage from './components/Flightpage';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Container>
+        <Route exact path = '/'component={Launches}/>
+        <Route path = '/launches/:flight_number' component={Flightpage} />
+      </Container>
+    </Router>
   );
 }
 
