@@ -2,6 +2,7 @@
   "name": "task-2-spacex",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://prachip09.github.io/Learningperiod-Task2-SpaceX/",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@syncfusion/ej2-react-calendars": "^19.2.55",
@@ -26,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"yarn build",
+    "deploy":"gh pages -d build"
   },
   "eslintConfig": {
     "extends": [
