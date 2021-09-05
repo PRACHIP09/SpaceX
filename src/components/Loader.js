@@ -15,8 +15,8 @@ const Loader = () => {
             <Row>
                 <Col>
                 <div className='mx-3'>
-                    <strong>
-                    Fetching Launches......
+                    <strong style={{fontSize:"1.5rem"}}>
+                    Loading Launches......
                     </strong>
                 </div>
                 </Col>
