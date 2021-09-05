@@ -7,7 +7,7 @@ import spacexwallre from './spacexwallre.png';
 import moment from 'moment';
 import { Typography } from '@material-ui/core';
 import { DateRangePickerComponent } from '@syncfusion/ej2-react-calendars';
-import "@syncfusion/ej2-calendars/styles/daterangepicker/tailwind-dark.css";
+import "@syncfusion/ej2-calendars/styles/daterangepicker/material-dark.css";
 import { is } from 'date-fns/locale';
 var launcharr=[],date=[],dateend=[],length=0,index=[],launchsort=[],startval,endval,onChange,startdate=0,enddate=0;
    
