@@ -98,7 +98,7 @@ const onChange = async(props) =>{
         <Typography variant="h4" align="center">"The Dawn of New Era in Commercial Space Exploration" </Typography><br/><br/>
         </div>
         <div style={{backgroundColor:"#555555",textSize:"1.5rem"}}>
-        <DateRangePickerComponent change={onChange} style={{textDecorationColor:"#b30000"}} ></DateRangePickerComponent>
+        <DateRangePickerComponent change={onChange} style={{textDecorationColor:"#b30000"}} placeholder="MM/DD/YYYY - MM/DD/YYYY"></DateRangePickerComponent>
         </div><br/>
         {(startdate === enddate)?(
          <strong style={{fontSize:"1.5rem"}}>
